@@ -1,0 +1,56 @@
+{
+  "uid" : "40e1c81d063fdde6",
+  "name" : "test_del_api[data0]",
+  "fullName" : "test_area#test_del_api",
+  "historyId" : "1003ead5c83debdeb4d5f0d26b8dc00c",
+  "time" : {
+    "start" : 1612084649912,
+    "stop" : 1612084650000,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "suite",
+    "value" : "test_area"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3827U2J"
+  }, {
+    "name" : "thread",
+    "value" : "6100-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'用例ID': 102.0, '用例模块': '城市区域', '用例名称': '城市删除', '用例地址': 'http://huiminschool.dev.com:8088/api/area/delete', '请求方式': 'GET', '请求类型': 'json', '请求参数': '{\"id\":\"1\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': 'login', '是否执行': 'y', '状态码': '0', '期望结果': '删除成功'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "40e1c81d063fdde6.json",
+  "parameterValues" : [ "{'用例ID': 102.0, '用例模块': '城市区域', '用例名称': '城市删除', '用例地址': 'http://huiminschool.dev.com:8088/api/area/delete', '请求方式': 'GET', '请求类型': 'json', '请求参数': '{\"id\":\"1\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': 'login', '是否执行': 'y', '状态码': '0', '期望结果': '删除成功'}" ]
+}

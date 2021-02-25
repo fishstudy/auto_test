@@ -1,0 +1,53 @@
+{
+  "uid" : "3027d5c8df4250ca",
+  "name" : "test_add_api[data0]",
+  "fullName" : "test_Add#test_add_api",
+  "historyId" : "8fef204a0de9db610f1fdfb123b96204",
+  "time" : {
+    "start" : 1612084649465,
+    "stop" : 1612084649485,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_Add"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3827U2J"
+  }, {
+    "name" : "thread",
+    "value" : "6100-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'用例ID': 40.0, '用例模块': 'user40', '用例名称': 40.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3027d5c8df4250ca.json",
+  "parameterValues" : [ "{'用例ID': 40.0, '用例模块': 'user40', '用例名称': 40.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}" ]
+}

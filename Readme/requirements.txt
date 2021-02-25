@@ -1,0 +1,10 @@
+pip install pytest
+pip install pytest-html
+pip install xlrd
+pip install xlwt
+pip install allure-pytest
+pip install requests
+pip install loguru
+pip install yagmail
+pip install configparser
+pip install time

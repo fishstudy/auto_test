@@ -1,0 +1,56 @@
+{
+  "uid" : "efd8628f507bc22d",
+  "name" : "test_add_api[data1]",
+  "fullName" : "Multiapi.test_Add#test_add_api",
+  "historyId" : "c170b65be5cf38ab5777f7d2961ff2b9",
+  "time" : {
+    "start" : 1612094276391,
+    "stop" : 1612094276401,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Multiapi"
+  }, {
+    "name" : "suite",
+    "value" : "test_Add"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3827U2J"
+  }, {
+    "name" : "thread",
+    "value" : "8152-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Multiapi.test_Add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'用例ID': 41.0, '用例模块': 'user41', '用例名称': 41.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "efd8628f507bc22d.json",
+  "parameterValues" : [ "{'用例ID': 41.0, '用例模块': 'user41', '用例名称': 41.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}" ]
+}

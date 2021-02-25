@@ -1,0 +1,56 @@
+{
+  "uid" : "365fbff77f2965ee",
+  "name" : "test_edit_api[data0]",
+  "fullName" : "test_area#test_edit_api",
+  "historyId" : "e20ab8f0b192201a641f3e99cc39ffa6",
+  "time" : {
+    "start" : 1612084649727,
+    "stop" : 1612084649908,
+    "duration" : 181
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "suite",
+    "value" : "test_area"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3827U2J"
+  }, {
+    "name" : "thread",
+    "value" : "6100-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'用例ID': 101.0, '用例模块': '城市区域', '用例名称': '城市修改', '用例地址': 'http://huiminschool.dev.com:8088/api/area/edit', '请求方式': 'POST', '请求类型': 'json', '请求参数': '{\"title\":\"商水改成鹿邑\",\"pid\":\"100\",\"weight\":\"101\",\"id\":2}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': 'login', '是否执行': 'y', '状态码': '0', '期望结果': '修改成功'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "365fbff77f2965ee.json",
+  "parameterValues" : [ "{'用例ID': 101.0, '用例模块': '城市区域', '用例名称': '城市修改', '用例地址': 'http://huiminschool.dev.com:8088/api/area/edit', '请求方式': 'POST', '请求类型': 'json', '请求参数': '{\"title\":\"商水改成鹿邑\",\"pid\":\"100\",\"weight\":\"101\",\"id\":2}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': 'login', '是否执行': 'y', '状态码': '0', '期望结果': '修改成功'}" ]
+}
