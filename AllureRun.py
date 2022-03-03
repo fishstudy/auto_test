@@ -8,20 +8,17 @@ if __name__ == '__main__':
 
     """执行并生成allure测试报告"""
     now = time.strftime('%Y%m%d', time.localtime(time.time()))#获取当前时间
-    resultDir = FilePath.reportPath() + "/peng/" + now  # 测试结果数据存放路径
-    reportDir = resultDir+"/Html/"  # 测试报告生成路径
-    logDir=FilePath.logPath()+"/peng/Apitestdebug"+now+".log"
+    resultDir = FilePath.reportPath() + "/test/" + now  # 测试结果数据存放路径
+    reportDir = FilePath.reportPath() + "/test/Html/" + now  # 测试报告生成路径
+    logDir=FilePath.logPath()+"/test/Apitestdebug"+now+".log"
     logger.add(logDir, encoding="utf-8")#创建日志文件
-
-
-
 
     #pytest+allure 执行用例生成报告
     #用例执行范围
-    Testcase = "./peng/"#指定测试范围目录
-    #Testcase = "./peng/test_login.py"#指定目录中的模块/文件
-    #Testcase = "./peng/test_login.py::test_login_api"#指定目录中的文件中的类或方法
-    #Testcase = "./peng/test_login.py::类名::方法名"#指定目录中的文件中的类里面的方法
+    #Testcase = "./test/"#指定测试范围目录
+    Testcase = "./test/test_area.py"#指定目录中的模块/文件
+    #Testcase = "./test/test_login.py::test_login_api"#指定目录中的文件中的类或方法
+    #Testcase = "./test/test_login.py::类名::方法名"#指定目录中的文件中的类里面的方法
     #args = ["-s", "-v", "--alluredir",resultDir, "-k","denglu",FilePath.casePath()+Testcase]    #指定运行目录中文件名/类名/方法名包含关键字的用例
     args = ["-s","-v","--alluredir",resultDir,"--clean-alluredir",FilePath.casePath()+Testcase]#测试范围目录下的用例生成结果数据
     logger.info("pytest 开始执行用例");
@@ -35,6 +32,5 @@ if __name__ == '__main__':
     # reciver = ['huiminschool@163.com', 'huiminzhiyexuexiao@163.com']
     # Email.sendMail(reciver, reportDir)
     logger.debug(reportDir)
-    #subprocess.call('allure open -h 127.0.0.1 -p 9999 '+reportDir+'',shell=True)#生成一个本地的服务并自动打开html报告
-    subprocess.call('allure open -h 192.168.1.114 -p 9999 '+reportDir+'',shell=True)#生成一个本地的服务并自动打开html报告
-
+    subprocess.call('allure open -h 127.0.0.1 -p 9999 '+reportDir+'',shell=True)#生成一个本地的服务并自动打开html报告
+    #subprocess.call('allure open -h 192.168.1.114 -p 9999 '+reportDir+'',shell=True)#生成一个本地的服务并自动打开html报告

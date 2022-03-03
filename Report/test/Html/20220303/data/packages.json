@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test.test_add",
+    "children" : [ {
+      "name" : "test_add_api[data0]",
+      "uid" : "8ecf9cbf405c9c08",
+      "parentUid" : "349e38af1c5324e9f0f1322646592a1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646310965237,
+        "stop" : 1646310965248,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'用例ID': 1.0, '用户ID': 40.0, '用户名': 'user40', '用户年龄': 40.0}" ]
+    }, {
+      "name" : "test_add_api[data1]",
+      "uid" : "7c81f986cf1a4976",
+      "parentUid" : "349e38af1c5324e9f0f1322646592a1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646310965252,
+        "stop" : 1646310965260,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'用例ID': 2.0, '用户ID': 41.0, '用户名': 'user41', '用户年龄': 41.0}" ]
+    }, {
+      "name" : "test_add_api[data2]",
+      "uid" : "87c04ec4bcc7daca",
+      "parentUid" : "349e38af1c5324e9f0f1322646592a1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646310965263,
+        "stop" : 1646310965282,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'用例ID': 3.0, '用户ID': 42.0, '用户名': 'user42', '用户年龄': 42.0}" ]
+    } ],
+    "uid" : "test.test_add"
+  } ]
+}

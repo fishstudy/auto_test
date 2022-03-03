@@ -63,7 +63,8 @@ class ExcelVarles:
     case_isRun="是否执行"
     case_code="状态码"
     case_result="期望结果"
-# hc = OperationExcel()
-# print(hc.getExceldatas())
-
+    #############################用户的相关字段####################################
+    case_userID = "用户ID"
+    case_userName = "用户名"
+    case_userAge = "用户年龄"
 

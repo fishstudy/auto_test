@@ -1,0 +1,56 @@
+{
+  "uid" : "87c04ec4bcc7daca",
+  "name" : "test_add_api[data2]",
+  "fullName" : "test.test_add#test_add_api",
+  "historyId" : "f446588e5c782fbe83bbd0cb73fdf88b",
+  "time" : {
+    "start" : 1646310965263,
+    "stop" : 1646310965282,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_add"
+  }, {
+    "name" : "host",
+    "value" : "PC-001"
+  }, {
+    "name" : "thread",
+    "value" : "6280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'用例ID': 3.0, '用户ID': 42.0, '用户名': 'user42', '用户年龄': 42.0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87c04ec4bcc7daca.json",
+  "parameterValues" : [ "{'用例ID': 3.0, '用户ID': 42.0, '用户名': 'user42', '用户年龄': 42.0}" ]
+}
